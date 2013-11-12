@@ -218,13 +218,22 @@ footer p {
   color: #6f6f6f;
   font-weight: 300;
   margin-top: 0.2em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.125em;
 }
 
 #content ul, #content ol {
     font-family: 'Droid Serif', serif;
+    margin-left: 1.5em;
+}
+
+#content ul {
+  list-style: square;
+}
+
+.portletNews, .portletTwitterPortlet {
+  border-bottom: 1px solid #eaeef1;
 }
 
 .portletNavigationTree ul {
@@ -285,4 +294,16 @@ div.listingBar a {
 
 div.listingBar a:hover {
   background:  #ce3817;
+}
+
+#banner h4 {
+  font-size: 1.4375em;
+}
+
+fieldset ul {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+fieldset {
+  border-color: #eaeef1;
 }
