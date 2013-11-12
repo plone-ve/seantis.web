@@ -205,3 +205,10 @@ footer p {
   }
 }
 
+#search-filter-toggle {
+  display: none !important;
+}
+
+#searchResultsSort {
+  margin-top: 15px;
+}
