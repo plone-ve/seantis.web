@@ -88,7 +88,7 @@ hr.noline {
   height: 280px;
 }
 
-#portrait-page #banner {
+.section-portrait #banner {
     background-image: url('../img/panorma.png');
 }
 
