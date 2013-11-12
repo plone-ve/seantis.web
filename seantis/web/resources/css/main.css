@@ -232,10 +232,23 @@ footer p {
 }
 
 .portletNavigationTree ul li {
-  border-bottom: 1px solid #eaeef1;;
+  border-bottom: 1px solid #eaeef1;
   padding: 5px 0;
 }
 
 .navTreeCurrentNode {
   color: #3c4f60;
+}
+
+.tileItem {
+  border-bottom: 1px solid #eaeef1;
+  margin-bottom: 20px;
+}
+
+.tileHeadline {
+  font-size: 1.125em;
+}
+
+.tileHeadline a {
+  color: #222;
 }
