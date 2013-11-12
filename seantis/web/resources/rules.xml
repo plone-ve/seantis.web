@@ -41,6 +41,8 @@
 
         <!-- Main columns -->
         <replace css:theme-children="#content" css:content-children="#content" />
+        <replace css:theme-children="#right-column" css:content-children="#portal-column-two" />
+        
 
         <!-- Drop conflicting classes -->
         <drop css:content=".row" attributes="class"/>
