@@ -212,3 +212,16 @@ footer p {
 #searchResultsSort {
   margin-top: 15px;
 }
+
+.documentDescription {
+  line-height: 1.4;
+  color: #6f6f6f;
+  font-weight: 300;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#content ul, #content ol {
+    font-family: 'Droid Serif', serif;
+}
