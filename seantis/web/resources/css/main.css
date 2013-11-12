@@ -252,3 +252,37 @@ footer p {
 .tileHeadline a {
   color: #222;
 }
+
+.portletHeader a {
+  color: #222;
+}
+
+.blogListingEntry {
+  border-bottom: 1px solid #eaeef1;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.blogListingEntry h2 a {
+  color: #222;
+}
+
+.blogListingEntry .tileFooter {
+  display: block;
+  color: #6f6f6f;
+  font-size: 0.6875em;
+}
+
+div.listingBar {
+    font-size: 1em;
+}
+
+div.listingBar a {
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  border: none;
+}
+
+div.listingBar a:hover {
+  background:  #ce3817;
+}
