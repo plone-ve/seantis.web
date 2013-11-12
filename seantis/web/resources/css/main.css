@@ -220,8 +220,22 @@ footer p {
   margin-top: 0.2em;
   margin-bottom: 0.5em;
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.125em;
 }
 
 #content ul, #content ol {
     font-family: 'Droid Serif', serif;
+}
+
+.portletNavigationTree ul {
+  list-style: none
+}
+
+.portletNavigationTree ul li {
+  border-bottom: 1px solid #eaeef1;;
+  padding: 5px 0;
+}
+
+.navTreeCurrentNode {
+  color: #3c4f60;
 }
