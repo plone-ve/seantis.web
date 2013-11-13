@@ -36,6 +36,8 @@ setup(name=name,
           'setuptools',
           'plone.app.theming',
           'plone.app.themingplugins',
+          'Products.ContentWellPortlets',
+          'collective.portlet.embed',
       ],
       extras_require={'test': ['plone.app.testing']},
       entry_points="""
