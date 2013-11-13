@@ -63,6 +63,10 @@ hr.noline {
   height: 4em;
 }
 
+#navigation .selected a {
+    color: #ce3817;
+  }
+
 #navigation a {
   color: #003a63;
 }
