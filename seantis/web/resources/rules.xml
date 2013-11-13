@@ -25,6 +25,9 @@
         <!-- Logo -->
         <copy attributes="href" css:theme="#brand" css:content="#portal-logo" />
 
+        <!-- Banner -->
+        <drop css:theme="#banner" />
+
         <!-- Navigation -->
         <replace css:theme-children="#nav-tabs" css:content-children="#portal-globalnav" />
         <drop css:content="#portaltab-index_html" />
