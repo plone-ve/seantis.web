@@ -49,12 +49,19 @@
         
         <!-- Addtional portlets -->
         <replace css:theme-children="#portlets-in-header" css:content-children="#portlets-in-header" />
+        <drop css:content=".manageInHeaderPortletsLink" />
         <after css:theme-children="#portlets-in-header" css:content-children=".manageInHeaderPortletsLink" />
+
         <replace css:theme-children="#portlets-above-content" css:content-children="#portlets-above" />
+        <drop css:content=".managePortletsAboveLink" />
         <after css:theme-children="#portlets-above-content" css:content-children=".managePortletsAboveLink" />
+        
         <replace css:theme-children="#portlets-below-content" css:content-children="#portlets-below" />
+        <drop css:content=".managePortletsBelowLink" />
         <after css:theme-children="#portlets-below-content" css:content-children=".managePortletsBelowLink" />
+        
         <replace css:theme-children="#portlets-in-footer" css:content-children="#portlets-footer" />
+        <drop css:content=".manageFooterPortletsLink" />
         <after css:theme-children="#portlets-in-footer" css:content-children=".manageFooterPortletsLink" />
 
         <!-- Drop conflicting classes -->
