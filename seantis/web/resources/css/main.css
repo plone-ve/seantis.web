@@ -95,6 +95,10 @@ hr.noline {
     background-image: url('../img/panorma.png');
 }
 
+.section-news #banner {
+    background-image: url('../img/news.png');
+}
+
 #banner h2, #banner h3, #banner h4 {
   color: #fff;
   margin-top: 40px;
