@@ -16,6 +16,7 @@
             <link rel="stylesheet" type="text/css" media="screen" href="portal_css/Sunburst%20Theme/member.css" /> 
             <link rel="stylesheet" type="text/css" media="screen" href="portal_css/Sunburst%20Theme/base.css" />
             <link rel="stylesheet" type="text/css" media="screen" href="portal_css/Sunburst%20Theme/authoring.css" />
+            <link rel="stylesheet" type="text/css" media="screen" href="portal_css/Sunburst%20Theme/controlpanel.css" />
         </before>
 
         <!-- Body -->
@@ -43,6 +44,15 @@
         <replace css:theme-children="#content" css:content-children="#content" />
         <replace css:theme-children="#right-column" css:content-children="#portal-column-two" />
         
+        <!-- Addtional portlets -->
+        <replace css:theme-children="#portlets-in-header" css:content-children="#portlets-in-header" />
+        <after css:theme-children="#portlets-in-header" css:content-children=".manageInHeaderPortletsLink" />
+        <replace css:theme-children="#portlets-above-content" css:content-children="#portlets-above" />
+        <after css:theme-children="#portlets-above-content" css:content-children=".managePortletsAboveLink" />
+        <replace css:theme-children="#portlets-below-content" css:content-children="#portlets-below" />
+        <after css:theme-children="#portlets-below-content" css:content-children=".managePortletsBelowLink" />
+        <replace css:theme-children="#portlets-in-footer" css:content-children="#portlets-footer" />
+        <after css:theme-children="#portlets-in-footer" css:content-children=".manageFooterPortletsLink" />
 
         <!-- Drop conflicting classes -->
         <drop css:content=".row" attributes="class"/>
