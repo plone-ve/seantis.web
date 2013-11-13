@@ -3,10 +3,10 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="623.62px" height="198.43px" viewBox="0 0 623.62 198.43" enable-background="new 0 0 623.62 198.43" xml:space="preserve">
-<text transform="matrix(1 0 0 1 274 90)"><tspan x="0" y="0" fill="#003A63" font-family="'OpenSans-Semibold'" font-size="110" letter-spacing="-1">seantis</tspan><tspan x="0" y="82.25" fill="#7399C6" font-family="'OpenSans-Light'" font-size="49.3496">       </tspan></text>
-<rect x="90" y="18" fill="#0065A4" width="72" height="72"/>
-<rect x="171" y="99" fill="#D9531E" width="72" height="72"/>
-<rect x="171.212" y="18" fill="#C3B600" width="71.788" height="72"/>
-<rect x="90" y="99" fill="#7399C6" width="72" height="72"/>
-<text transform="matrix(1 0 0 1 361 162)" fill="#7399C6" font-family="'OpenSans-Light'" font-size="55">IT solutions</text>
+<text transform="matrix(1 0 0 1 224 90)"><tspan x="0" y="0" fill="#003A63" font-family="'OpenSans-Semibold'" font-size="110" letter-spacing="-1">seantis</tspan><tspan x="0" y="82.25" fill="#7399C6" font-family="'OpenSans-Light'" font-size="49.3496">       </tspan></text>
+<rect x="40" y="18" fill="#0065A4" width="72" height="72"/>
+<rect x="121" y="99" fill="#D9531E" width="72" height="72"/>
+<rect x="121.212" y="18" fill="#C3B600" width="71.788" height="72"/>
+<rect x="40" y="99" fill="#7399C6" width="72" height="72"/>
+<text transform="matrix(1 0 0 1 311 162)" fill="#7399C6" font-family="'OpenSans-Light'" font-size="55">IT solutions</text>
 </svg>
