@@ -60,9 +60,10 @@
         <drop css:content=".managePortletsBelowLink" />
         <after css:theme-children="#portlets-below-content" css:content-children=".managePortletsBelowLink" />
         
-        <replace css:theme-children="#portlets-in-footer" css:content-children="#portlets-footer" />
-        <drop css:content=".manageFooterPortletsLink" />
-        <after css:theme-children="#portlets-in-footer" css:content-children=".manageFooterPortletsLink" />
+        <replace css:theme-children="#portlets-in-footer-1" css:content-children=".FooterPortletManager1" />
+        <replace css:theme-children="#portlets-in-footer-2" css:content-children=".FooterPortletManager2" />
+        <replace css:theme-children="#portlets-in-footer-3" css:content-children=".FooterPortletManager3" />
+        <after css:theme="#portlets-in-footer" css:content=".manageFooterPortletsLink" />
 
         <!-- Drop conflicting classes -->
         <drop css:content=".row" attributes="class"/>
