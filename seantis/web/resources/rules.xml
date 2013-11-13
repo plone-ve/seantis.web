@@ -63,6 +63,7 @@
         <replace css:theme-children="#portlets-in-footer-1" css:content-children=".FooterPortletManager1" />
         <replace css:theme-children="#portlets-in-footer-2" css:content-children=".FooterPortletManager2" />
         <replace css:theme-children="#portlets-in-footer-3" css:content-children=".FooterPortletManager3" />
+        <replace css:theme-children="#portlets-in-footer-4" css:content-children=".FooterPortletManager4" />
         <after css:theme="#portlets-in-footer" css:content=".manageFooterPortletsLink" />
 
         <!-- Drop conflicting classes -->
