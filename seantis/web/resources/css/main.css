@@ -247,6 +247,10 @@ footer p {
   padding: 5px 0;
 }
 
+.portletNavigationTree a {
+  color: #6f6f6f;
+}
+
 .navTreeCurrentNode {
   color: #3c4f60;
 }
