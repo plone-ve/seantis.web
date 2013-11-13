@@ -5,7 +5,7 @@ name = 'seantis.web'
 description = (
     "The seantis website."
 )
-version = '0.2'
+version = '0.3'
 
 long_description = (
     open('README.rst').read()
