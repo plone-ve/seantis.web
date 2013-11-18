@@ -342,3 +342,16 @@ fieldset ul {
 fieldset {
   border-color: #eaeef1;
 }
+
+#search-results {
+  padding-left: 0;
+}
+
+#search-results dd {
+  border-bottom: 1px solid #eaeef1;
+}
+
+#search-results dd cite {
+  color: #6f6f6f;
+  font-size: 0.6875em;
+}
