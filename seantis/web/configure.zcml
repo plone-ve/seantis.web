@@ -4,6 +4,7 @@
     xmlns:i18n="http://namespaces.zope.org/i18n"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:monkey="http://namespaces.plone.org/monkey"
     i18n_domain="seantis.web">
 
   <five:registerPackage package="." initialize=".initialize" />
@@ -16,12 +17,19 @@
     />
 
   <genericsetup:registerProfile
-      name="default"
-      title="seantis.web"
-      directory="profiles/default"
-      description="Installs the seantis.web package"
-      provides="Products.GenericSetup.interfaces.EXTENSION"
-      />
-  <!-- -*- extra stuff goes here -*- -->
+    name="default"
+    title="seantis.web"
+    directory="profiles/default"
+    description="Installs the seantis.web package"
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    />
+
+  <include package="collective.monkeypatcher" />
+  <monkey:patch
+    description=""
+    class="collective.blogging.portlets.archive.Renderer"
+    original="archives"
+    replacement=".monkeypatch.patchedArchives"
+    />
 
 </configure>
