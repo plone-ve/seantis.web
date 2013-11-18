@@ -71,6 +71,11 @@
         <drop css:content=".column" attributes="class"/>
         <drop css:content=".searchPage" attributes="class"/>
 
+        <!-- Add foundation classes to plone buttons  -->
+        <replace css:content-children="#content input[type=submit], #content input[type=button]">
+            <xsl:attribute name="class">small button secondary</xsl:attribute>
+        </replace>
+
     </rules>
 
 </rules>
