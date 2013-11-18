@@ -141,6 +141,9 @@ button.postfix {
 #content {
   clear: both;
 }
+.photoAlbumEntry {
+  background: none;
+}
 
 /* -------- */
 /* Portlets */
@@ -263,7 +266,7 @@ footer p {
   list-style: none
 }
 
-.portletNavigationTree ul li {
+.portletNavigationTree ul.navTreeLevel0 > li {
   border-bottom: 1px solid #eaeef1;
   padding: 5px 0;
 }
