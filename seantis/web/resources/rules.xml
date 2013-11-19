@@ -42,6 +42,7 @@
 
         <!-- Edit bar -->
         <before css:theme="#content" css:content="#edit-bar" />
+        <before css:theme="#content" css:content=".portalMessage" />
 
         <!-- Main columns -->
         <replace css:theme-children="#content" css:content-children="#content" />
