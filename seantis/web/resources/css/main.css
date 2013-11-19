@@ -362,3 +362,7 @@ fieldset {
   padding-top: 6px;
   font-family: 'Open Sans', sans-serif;
 }
+
+#content a {
+  word-wrap: break-word;
+}
