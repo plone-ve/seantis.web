@@ -169,12 +169,8 @@ button.postfix {
   text-align: right
 }
 
-.blogArchivePortlet .archiveMonth + span {
-  display: none;
-}
 .blogArchivePortlet .archiveMonth {
   padding-left: 1em;
-  display: block;
 }
 .blogArchivePortlet .archiveCount {
   font-weight: bold;
