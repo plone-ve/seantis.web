@@ -161,9 +161,10 @@ button.postfix {
   text-align: right
 }
 
-.blogArchivePortlet .archiveMonth {
-  padding-left: 1em;
+.blogArchivePortlet .archiveMonths {
+  margin-left: 1em;
 }
+
 .blogArchivePortlet .archiveCount {
   font-weight: bold;
 }
@@ -259,7 +260,7 @@ footer p {
   padding: 5px 0;
 }
 
-.portletNavigationTree a {
+.portletNavigationTree a, .blogArchivePortlet a {
   color: #6f6f6f;
 }
 
