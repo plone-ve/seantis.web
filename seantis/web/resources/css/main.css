@@ -247,6 +247,11 @@ footer p {
   list-style: square;
 }
 
+#content ul.clearing-thumbs {
+  list-style: none;
+}
+
+
 .portletNews, .portletTwitterPortlet {
   border-bottom: 1px solid #eaeef1;
 }
