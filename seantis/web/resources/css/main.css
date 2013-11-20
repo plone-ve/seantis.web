@@ -133,9 +133,6 @@ button.postfix {
 #content {
   clear: both;
 }
-.photoAlbumEntry {
-  background: none;
-}
 
 /* -------- */
 /* Portlets */
@@ -218,6 +215,7 @@ footer p {
   #banner div {
     max-width: 400px;
   }
+
 }
 
 #search-filter-toggle {
