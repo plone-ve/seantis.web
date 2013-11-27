@@ -376,3 +376,7 @@ fieldset {
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
+#disqus-count {
+  display: none;
+}
