@@ -143,8 +143,8 @@ button.postfix {
   border-color: #EAEEF1;
   padding-top: 1em;
 }
-
-.phone {
+.vcard .phone {
+  margin-top: 1em;
   font-weight: bold
 }
 
