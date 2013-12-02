@@ -74,6 +74,9 @@
         <replace css:theme-children="#portlets-in-footer-4" css:content-children=".FooterPortletManager4" />
         <after css:theme="#portlets-in-footer" css:content=".manageFooterPortletsLink" />
 
+        <!-- Google analytics -->
+        <after css:theme="footer" css:content="#visual-portal-wrapper script" />
+
         <!-- Drop conflicting classes -->
         <drop css:content=".row" attributes="class"/>
         <drop css:content=".column" attributes="class"/>
