@@ -49,16 +49,25 @@
         <replace css:theme-children="#right-column" css:content-children="#portal-column-two" />
         
         <!-- Addtional portlets -->
+        <!-- Header portlet-->
         <replace css:theme-children="#portlets-in-header" css:content-children="#portlets-in-header" />
         <drop css:content=".manageInHeaderPortletsLink" />
         <after css:theme-children="#portlets-in-header" css:content-children=".manageInHeaderPortletsLink" />
 
+        <!-- Above-content portlet -->
         <replace css:theme-children="#portlets-above-content" css:content-children="#portlets-above" />
         <drop css:content=".managePortletsAboveLink" />
         <after css:theme-children="#portlets-above-content" css:content-children=".managePortletsAboveLink" />
         
+        <!-- Below-content-title -->
+        <!-- Since the id "porltets-below" is used twice, we drop this one. -->
+        <drop css:content="#content #portlets-below" />
+        <drop css:content=".managePortletsBelowTitleLink" />
+
+        <!-- Below-content portlet -->
         <replace css:theme-children="#viewlet-below-content" css:content-children="#viewlet-below-content" />
         
+        <!-- Footer portlets 1-4 -->
         <replace css:theme-children="#portlets-in-footer-1" css:content-children=".FooterPortletManager1" />
         <replace css:theme-children="#portlets-in-footer-2" css:content-children=".FooterPortletManager2" />
         <replace css:theme-children="#portlets-in-footer-3" css:content-children=".FooterPortletManager3" />
