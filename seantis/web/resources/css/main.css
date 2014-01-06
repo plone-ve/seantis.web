@@ -216,9 +216,16 @@ footer p {
     max-width: 400px;
   }
 
-  #content img.tileImage, #content div.newsImageContainer img {
+  #content img.tileImage {
     max-height: 75px;
     max-width: 75px;
+  }
+
+  #content div.newsImageContainer {
+    float: none;
+  }
+  #content div.newsImageContainer img {
+    display: block;
   }
 
 }
