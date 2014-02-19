@@ -195,6 +195,14 @@ footer p {
 }
 
 
+/* ------- */
+/* Twitter */
+/* ------- */
+.portletTwitterPortlet .tweetUsername,
+.portletTwitterPortlet .tweetSeparator {
+    display: none;
+}
+
 /* ---------- */
 /* Responsive */
 /* ---------- */
