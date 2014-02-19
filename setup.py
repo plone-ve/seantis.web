@@ -1,28 +1,27 @@
 from setuptools import setup, find_packages
-import os
 
 name = 'seantis.web'
 description = (
     "The seantis website."
 )
-version = '0.9'
+version = '1.0'
 
 long_description = (
     open('README.rst').read()
-  )
+)
 
 setup(name=name,
       version=version,
       description=description,
       long_description=long_description,
       classifiers=[
-        "Environment :: Web Environment",
-        "Framework :: Plone",
-        "Operating System :: OS Independent",
-        "Programming Language :: Python",
-        "Programming Language :: Python :: 2.6",
-        "Topic :: Software Development :: Libraries :: Python Modules",
-        ],
+          "Environment :: Web Environment",
+          "Framework :: Plone",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 2.6",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+      ],
       keywords='plone seantis website',
       author='Seantis GmbH',
       author_email='info@seantis.ch',
