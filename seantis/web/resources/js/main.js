@@ -4,5 +4,5 @@ $(document).ready(function(){
     $('#portaltab-portfolio a').prepend('<i class="icon-image"></i> ');
     $('#portaltab-news a').prepend('<i class="icon-speakerphone"></i> ');
     $('#portaltab-blog a').prepend('<i class="icon-chatbox"></i> ');
-    $('#portaltab-services a').prepend('<i class="icon-speedometer"></i> ');
+    $('#portaltab-services a').prepend('<i class="icon-cloud"></i> ');
 });
