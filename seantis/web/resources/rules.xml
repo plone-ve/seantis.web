@@ -13,10 +13,10 @@
         <before css:theme-children="html head" css:content="html head base" />
         <after css:theme-children="html head" css:content="html head script" />
         <before css:theme-children="html head">
-            <link rel="stylesheet" type="text/css" media="screen" href="portal_css/Sunburst%20Theme/member.css" /> 
-            <link rel="stylesheet" type="text/css" media="screen" href="portal_css/Sunburst%20Theme/base.css" />
-            <link rel="stylesheet" type="text/css" media="screen" href="portal_css/Sunburst%20Theme/authoring.css" />
-            <link rel="stylesheet" type="text/css" media="screen" href="portal_css/Sunburst%20Theme/controlpanel.css" />
+            <link rel="stylesheet" type="text/css" media="screen" href="{$portal_url}/portal_css/Sunburst%20Theme/member.css" />
+            <link rel="stylesheet" type="text/css" media="screen" href="{$portal_url}/portal_css/Sunburst%20Theme/base.css" />
+            <link rel="stylesheet" type="text/css" media="screen" href="{$portal_url}/portal_css/Sunburst%20Theme/authoring.css" />
+            <link rel="stylesheet" type="text/css" media="screen" href="{$portal_url}/portal_css/Sunburst%20Theme/controlpanel.css" />
         </before>
 
         <!-- Body -->
