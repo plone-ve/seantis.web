@@ -1,0 +1,236 @@
+Changelog
+=========
+
+1.3.2 (unreleased)
+-------------------
+
+- Added more strings classifiers items for this package [macagua]
+
+- Added HTML5 validation for HTML files [macagua]
+
+- Fixed Plone URL Path for load the CSS resources files from Sunburst Theme package [macagua]
+
+
+1.3.1 (Jan 13, 2016)
+--------------------
+
+- Release 1.3.1 [Marc Sommerhalder]
+
+- Update year [Marc Sommerhalder]
+
+
+1.3 (Oct 12, 2015)
+------------------
+
+- Release 1.3 [Marc Sommerhalder]
+
+- Add header image #14 [Marc 
+Sommerhalder]
+
+
+1.2 (Mar 19, 2015)
+------------------
+
+- Release 1.2 [Marc Sommerhalder]
+
+- Update year [Marc Sommerhalder]
+
+- The bikes need nicer sheds [Marc 
+Sommerhalder]
+
+
+1.1.2 (Nov 24, 2014)
+--------------------
+
+- Release 1.1.2 [Marc Sommerhalder]
+
+- Icon for new services section #13 [Marc Sommerhalder]
+
+
+1.1.1 (Aug 8, 2014)
+-------------------
+
+- Release 1.1.1 -> use https for google fonts [Denis Krienbühl]
+
+
+1.1 (Jul 28, 2014)
+------------------
+
+- Release 1.1 [Marc Sommerhalder]
+
+- Add prism.js [Marc Sommerhalder]
+
+
+1.0 (Feb 19, 2014)
+------------------
+
+- Release 1.0 [Denis Krienbühl]
+
+- Modifys fourdigits.portlet.twitter style [Denis Krienbühl]
+
+
+0.9 (Jan 27, 2014)
+------------------
+
+- Version 0.9  [Marc Sommerhalder]
+
+- Remove Link to Controlpanel. Fixes #11  [Marc Sommerhalder]
+
+- Show images as block elements for small screens  [Marc Sommerhalder]
+
+- Update year  [Marc Sommerhalder]
+
+
+0.8 (Jan 7, 2014)
+-----------------
+
+- Next version is 0.8 [Marc Sommerhalder]
+
+- Add google analytics rule [Marc Sommerhalder]
+
+- Remove validator warning [Marc Sommerhalder]
+
+- Remove validator warning [Marc Sommerhalder]
+
+- Rename and remove images [Fabian Reinhard]
+
+
+0.7 (Nov 27, 2013)
+------------------
+
+- Next Version is 0.7 [Fabian Reinhard]
+
+- Bring the images back for the mobile version [Fabian Reinhard]
+
+- Hide comments count [Fabian Reinhard]
+
+- Fix (some) validator warnings. [Marc Sommerhalder]
+
+
+0.6 (Nov 20, 2013)
+------------------
+
+- Version 0.6 [Marc Sommerhalder]
+
+- Fix header [Marc Sommerhalder]
+
+- Ellipse headings [Marc Sommerhalder]
+
+- hide preview images on mobile devices [Marc Sommerhalder]
+
+- Remove unused css definition [Marc Sommerhalder]
+
+- (origin/foundation-clearing) Set thumbnail sizes [Marc Sommerhalder]
+
+- Try foundation clearing (lightbox) [Marc Sommerhalder]
+
+
+0.5 (Nov 19, 2013)
+------------------
+
+- Next Version is 0.5 [Fabian Reinhard]
+
+- Styling the archiv portlet [Fabian Reinhard]
+
+- Remove background images: it will be in the content [Fabian Reinhard]
+
+- Hide the first band (image) on small devices [Fabian Reinhard]
+
+- Make sure long links don't overflow [Fabian 
+Reinhard]
+
+- Add plone message box to theme [Marc Sommerhalder]
+
+
+0.4 (Nov 19, 2013)
+------------------
+
+- Set version to 0.4 [Marc Sommerhalder]
+
+- Override blog archive porlet instead of monkey-patching it [Marc Sommerhalder]
+
+- Styling the search results [Fabian Reinhard]
+
+- Styling the image caption [Fabian Reinhard]
+
+- Styling the search results listing [Fabian Reinhard]
+
+- Fix blog archive ordering issue [Marc Sommerhalder]
+
+- Styles galleries and navigation [Marc Sommerhalder]
+
+- Fix banner [Marc Sommerhalder]
+
+- Better solution for comments viewlet [Marc Sommerhalder]
+
+- Adds blog archive styling [Marc Sommerhalder]
+
+- Enables comments viewlet [Marc Sommerhalder]
+
+- Adds foundaiton styling to plone buttons [Marc Sommerhalder]
+
+
+0.3 (Nov 13, 2013)
+------------------
+
+- Version 0.3 [Marc Sommerhalder]
+
+- Merge branch 'master' of github.com:seantis/seantis.web [Fabian Reinhard]
+
+- Merge branch 'master' of github.com:seantis/seantis.web [Marc Sommerhalder]
+
+- Add favicon.ico [Marc Sommerhalder]
+
+- Styling the top navigation [Fabian Reinhard]
+
+- iPhone image [Fabian Reinhard]
+
+- Merge branch 'master' of github.com:seantis/seantis.web [Fabian Reinhard]
+
+- Organize footer portlets [Marc Sommerhalder]
+
+- Organize footer portlets [Marc Sommerhalder]
+
+- myControl.aero banner [Fabian Reinhard]
+
+
+0.2 (Nov 13, 2013)
+------------------
+
+- Increase version number [Marc Sommerhalder]
+
+- Disable zooming on iOS devices [Fabian Reinhard]
+
+- Styling the listing more link [Fabian Reinhard]
+
+- Navigation link color [Fabian Reinhard]
+
+- Logo canvas [Fabian Reinhard]
+
+- Add more portlet position and an embed portlet [Marc Sommerhalder]
+
+
+0.1 (Nov 12, 2013)
+------------------
+
+- Try the portrait image [Fabian Reinhard]
+
+- Content stylin [Fabian Reinhard]
+
+- Styling the pagination [Fabian Reinhard]
+
+- Styling the new section [Fabian Reinhard]
+
+- Basic navigation styling [Fabian Reinhard]
+
+- Random blog styling [Fabian Reinhard]
+
+- Add right column [Marc Sommerhalder]
+
+- Styling the search view [Fabian Reinhard]
+
+- Remove buildout [Marc Sommerhalder]
+
+- Update readme [Marc Sommerhalder]
+
+- Package created [Marc Sommerhalder]
