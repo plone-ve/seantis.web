@@ -48,6 +48,7 @@ setup(name=name,
           'plone.app.themingplugins',
           'Products.ContentWellPortlets',
           'collective.portlet.embed',
+          'collective.blogging',
       ],
       extras_require={'test': ['plone.app.testing']},
       entry_points="""

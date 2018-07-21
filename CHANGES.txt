@@ -4,6 +4,8 @@ Changelog
 1.3.2 (unreleased)
 -------------------
 
+- Added the collective.blogging as a install_requires from setup.py module [macagua]
+
 - Added improvements about README file [macagua]
 
 - Added more strings classifiers items for this package [macagua]
