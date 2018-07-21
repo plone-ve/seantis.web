@@ -8,6 +8,13 @@ version = '1.3.1'
 
 long_description = (
     open('README.rst').read()
+    + '\n' +
+    open('CHANGES.txt').read()
+    + '\n' +
+    'Contributors\n' +
+    '============\n' +
+    open('CONTRIBUTORS.txt').read()
+    + '\n'
 )
 
 setup(name=name,
