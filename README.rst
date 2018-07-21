@@ -80,7 +80,7 @@ Or, you can add it as a dependency on your own product ``setup.py`` file: ::
 Enabling the theme
 ------------------
 
-Select and enable the theme from the Diazo control panel. That's it!
+Select and enable the theme from the ``Add-ons`` control panel. That's it!
 
 
 When you want to edit the theme, you should do this on the file system.
